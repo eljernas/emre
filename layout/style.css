@@ -1,0 +1,337 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
+
+#home {
+    height: 800px;
+    text-align: center;
+    position: relative;
+    margin-top: -10px;
+}
+
+#service {
+    text-align: center;
+    padding: 10px;
+}
+
+#about {
+    padding: 10px;
+    text-align: center;
+}
+
+#contact {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    background-image: url('https://www.kumasfirsati.com/assets/img/p/36862_20220228143051.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.navbar-nav li{
+    cursor: pointer;
+    margin-bottom: 5px;
+    margin-right: 20px;
+
+}
+
+.vid {
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+
+}
+
+video {
+    width: 100%;
+    opacity: 60%;
+    top: 0px;
+    left: 0px;
+}
+
+.maintitle {
+    padding-top: 13%;
+}
+
+.maintitle h2 {
+    font-size: 50px;
+
+}
+
+.maintitle h2 span {
+    font-family: 'PT Serif', serif;
+}
+
+.maintitle p {
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+
+}
+
+.card {
+    margin: 10px;
+}
+.card img{
+    max-height: 200px;
+}
+
+.main img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* contact section */
+header {
+    position: absolute;
+    text-align: center;
+    width: 75%;
+    left: 12%;
+    top: 2rem;
+}
+
+header h1 {
+    font-size: 30px;
+}
+
+.empty {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0px;
+    left: 0;
+    z-index: -1;
+}
+
+.content {
+    display: flex;
+    min-height: 110vh;
+}
+
+.content section{
+    margin-top: 8vh;
+    margin-left: 20vh;
+}
+.content-form {
+    margin-top: 7rem;
+}
+
+section i {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    margin-left: 50%;
+    justify-content: center;
+    align-items: center;
+    min-height: 110vh;
+}
+
+.form .contact-form input {
+    width: 30rem;
+    background-color: transparent;
+    border: 0px;
+    border: transparent;
+    margin: 20px;
+    padding: 10px;
+    font-size: 18px;
+    border-bottom: 2px solid #fff;
+}
+
+.form .contact-form input~span {
+    position: absolute;
+    left: 20px;
+    transition: 0.9s ease-in-out;
+    margin-top: 10px;
+}
+
+.form .contact-form input:focus~span {
+    transform: translateY(-20px);
+    pointer-events: none;
+}
+
+.form .contact-form textarea {
+    width: 30rem;
+    border: 0px;
+    background-color: transparent;
+    margin: 20px;
+    font-size: 17px;
+    border-bottom: 2px solid white;
+}
+
+.form .contact-form textarea~span {
+    position: absolute;
+    left: 20px;
+    margin-top: 10px;
+    transition: 0.9s ease-in-out;
+}
+
+.form .contact-form textarea:focus~span {
+    transform: translateY(-20px);
+    pointer-events: none;
+}
+
+.form .contact-form input[type=submit] {
+    background-color: dodgerblue;
+    border: 2px solid dodgerblue;
+    font-size: 18px;
+    width: 50%;
+    height: 40px;
+    margin-top: -5px;
+}
+
+.form .contact-form input[type=submit]:hover {
+    background-color: transparent;
+    color: dodgerblue;
+}
+
+.media {
+    position: absolute;
+    top: 85vh;
+    right: 20vh;
+    display: flex;
+    list-style: none;
+}
+
+.media li {
+    margin: 20px 30px;
+}
+
+.footer {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    height: 100px;
+    background-color:gold;
+   
+    text-align: center;
+    color: #fff;
+   
+    transition: all 1s ease;
+}
+
+.footer h3 {
+    padding-top: 30px;
+}
+
+@media screen and (max-width: 900px) {
+    .maintitle {
+        padding: 35%;
+        width: 100%;
+    }
+
+    .maintitle h2 {
+        width: 100%;
+
+        font-size: 40px;
+
+    }
+
+    .maintitle p {
+        width: 100%;
+
+        font-size: 20px;
+    }
+
+    header {
+        position: relative;
+        left: 0;
+        top: 20%;
+        width: 100%;
+    }
+
+  
+
+    .content section {
+        height: 150px;
+    }
+
+   .content{
+    min-height: 50vh;
+   }
+    
+
+
+    .form {
+        position: relative;
+        margin-left: 10%;
+        min-height: 75vh;
+    }
+
+    .content-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .form {
+        position: relative;
+        margin-bottom: 20PX;
+    }
+
+    .content section {
+      position: relative;
+      margin: 10px;
+    }
+
+    .media {
+        position: relative;
+        right: -126px;
+        
+        top: 10px;
+    }
+    .media li {
+        cursor: pointer;
+    }
+    .media li a{
+        color:#fff;
+    }
+
+    .footer {
+        position: relative;
+
+    }
+}
+
+
+/* end contact section */
+
+@media screen and (max-width: 450px) {
+    .media{
+        right:-49px;
+    }
+}
