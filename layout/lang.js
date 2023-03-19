@@ -61,9 +61,9 @@ turk.addEventListener('click',() => {
     contactitem.innerHTML='iletişim';
 
 // sectin title;
-service.innerHTML='ürüler';
-about.innerHTML='Hakkımızda';
-contact.innerHTML='iletişim';
+servicel.innerHTML='ürüler';
+aboutl.innerHTML='Hakkımızda';
+contactl.innerHTML='iletişim';
 // home title:
 hometitle.innerHTML='Kapitone işler ve nakış işler her türlü yaplır';
 // card titles:
@@ -72,10 +72,6 @@ oto.innerHTML='oto kılıf';
 bag.innerHTML='Çanta';
 
 });
-
-
-
-
 
 
 
