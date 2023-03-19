@@ -1,3 +1,4 @@
+
 // navbar items:
 const homeitem=document.querySelector('.homeitem');
 const serviceitem=document.querySelector('.serviceitem');
@@ -5,9 +6,9 @@ const aboutitem=document.querySelector('.aboutitem');
 const contactitem=document.querySelector('.contactitem');
 
 // section isimler:
-const service=document.querySelector('#service h1');
-const about=document.querySelector('#about h1');
-const contact=document.querySelector('#contact h1');
+const servicel=document.querySelector('#service h1');
+const aboutl=document.querySelector('#about h1');
+const contactl=document.querySelector('#contact h1');
 
 // home title
 const hometitle=document.querySelector('.maintitle p');
@@ -35,9 +36,9 @@ serviceitem.innerHTML='Service';
 aboutitem.innerHTML='Âbout us!';
 contactitem.innerHTML='Contact';
 //  sectin title:
-service.innerHTML='Service';
-about.innerHTML='About us!';
-contact.innerHTML='Contact';
+servicel.innerHTML='Service';
+aboutl.innerHTML='About us!';
+contactl.innerHTML='Contact';
 // home title:
 hometitle.innerHTML='Quilted sponge fiber is made in the pattern you want';
 // card titles:
@@ -71,6 +72,10 @@ oto.innerHTML='oto kılıf';
 bag.innerHTML='Çanta';
 
 });
+
+
+
+
 
 
 
